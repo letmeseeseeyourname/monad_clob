@@ -1,0 +1,35 @@
+{
+  "name": "monad-clob",
+  "version": "1.0.0",
+  "description": "Parallel-friendly on-chain CLOB DEX for Monad",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:monad": "hardhat run scripts/deploy.js --network monadTestnet",
+    "stress-test": "hardhat run scripts/stress-test.js --network monadTestnet",
+    "node": "hardhat node",
+    "coverage": "hardhat coverage"
+  },
+  "keywords": ["monad", "clob", "dex", "orderbook", "parallel"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "chai": "^4.3.10",
+    "hardhat": "^2.19.4",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.5",
+    "typechain": "^8.3.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.10.0"
+  }
+}

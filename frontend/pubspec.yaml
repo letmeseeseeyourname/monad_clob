@@ -1,0 +1,43 @@
+name: monad_clob_frontend
+description: Frontend for MonadCLOB - Parallel-friendly on-chain CLOB DEX
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Web3 & Blockchain
+  web3dart: ^2.7.3
+  http: ^1.2.0
+
+  # State Management
+  flutter_riverpod: ^2.4.10
+
+  # Charts
+  fl_chart: ^0.66.0
+
+  # UI
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+
+  # Utilities
+  intl: ^0.19.0
+  url_launcher: ^6.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Add fonts if needed
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
